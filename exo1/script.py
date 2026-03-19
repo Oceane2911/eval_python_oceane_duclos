@@ -17,3 +17,16 @@ tmoy = np.genfromtxt('tmoy.csv', delimiter=',').tolist()
 # print("Tmoy :", tmoy)
 
 # Exercice 2
+
+
+tmin_array = np.array(tmin)
+tmax_array = np.array(tmax)
+tmoy_array = np.array(tmoy)
+
+tab = np.column_stack((tmin_array, tmax_array, tmoy_array))
+
+# print(tab)
+
+# Execerci 3
+
+tdelta 
